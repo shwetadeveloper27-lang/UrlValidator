@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>URL Validation</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="mock.js" defer></script>
+    <script src="server.js" defer></script>
+    <script src="app.js" defer></script>
+</head>
+<table>
+    <th></th>
+    <tr>
+        <td>
+            <label for="url">URL:</label>
+        </td>
+        <td><input type = "text" id="urlText" name="urlText" placeholder="Enter the URL" value="" required/>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label for = "Response From Server">Response: </label></td>
+        <td>
+            <textarea name ="urlTextArea" id ="urlTextArea" row="5", cols="40"></textarea>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p id="loading"></p>
+        </td>
+        <td>
+            <label for="textMessage" id="textMessage"></label>
+        </td>
+    </tr>
+</table>
+</html>
